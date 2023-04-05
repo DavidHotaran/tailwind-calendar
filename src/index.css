@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item:nth-child(7n + 1) {
+    border-left: none;
+}
+
+.item:nth-child(n + 29) {
+    border-bottom: none;
+}
